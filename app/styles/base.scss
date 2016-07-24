@@ -1,0 +1,159 @@
+$primary-color: #c96060;
+
+// Font
+.fwb {
+  font-weight: 800;
+}
+
+.fwn {
+  font-weight: 200;
+}
+
+// Padding
+.p20 {
+  padding: 20px;
+}
+
+// Family
+.ff-times {
+  font-family: Times, Times New Roman, serif;
+  letter-spacing: 0;
+}
+
+// Margin
+
+.ml0 {
+  margin-left: 0 !important;
+}
+
+.ml5 {
+  margin-left: 5px;
+}
+
+.ml10 {
+  margin-left: 10px;
+}
+
+.mr5 {
+  margin-right: 5px;
+}
+
+.mr10 {
+  margin-right: 10px;
+}
+
+.mr20 {
+  margin-right: 20px;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+// Font size
+.fz12 {
+  font-size: 12px;
+}
+
+.fz14 {
+  font-size: 14px;
+}
+
+.fz16 {
+  font-size: 16px;
+}
+
+.fz18 {
+  font-size: 18px;
+}
+
+.fz20 {
+  font-size: 20px;
+}
+
+.fz44 {
+  font-size: 44px;
+}
+
+// Text transform
+.ttu {
+  text-transform: uppercase;
+}
+
+// Text decoration
+.tdu {
+  text-decoration: underline;
+}
+
+// Font style
+.fsi {
+  font-style: italic;
+}
+
+// Text align
+.tac {
+  text-align: center;
+}
+
+.tar {
+  text-align: right;
+}
+
+// Font style
+.fsi {
+  font-style: italic;
+}
+
+// Color
+.c-primary {
+  color: $primary-color;
+}
+
+// Letter spaccing
+.lpn {
+  letter-spacing: normal;
+}
+
+// Fluid size
+.fluid {
+  max-width: 100%;
+}
+
+// Cursor
+.cp {
+  cursor: pointer;
+}
+
+// Display
+.db {
+  display: block;
+}
+
+.dib {
+  display: inline-block;
+}
+
+// Text
+.txt-red {
+  color: $primary-color;
+}
+
+.txt-grey {
+  color: #b7b7b7;
+}
