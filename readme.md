@@ -7,11 +7,11 @@ Dalam project ini juga kita bisa sharing bagaimana cara yang lebih optimal dalam
 
 Resepku menyiapkan berbagai resource untuk dipilih dimana anda memulai
 
-> PSD MOCKUP : https://dribbble.com/shots/2779486-Resepku-Free-Mockup
+> PSD MOCKUP : http://bit.ly/resepku-mockup
 
-> HTML TEMPLATE : https://github.com/appai/resepku-html
+> HTML TEMPLATE : https://github.com/appai/resepku
 
-> PHP API : http://bit.ly/resepku-api
+> PHP API : https://github.com/eezhal92/resepku-api
 
 > Coming soon untuk angular-2, vue, react dll :)
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b0cda7-fd71-4ae3-b363-e362b6a8b911" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="resepku-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,8 +52,8 @@
               </provider>
               <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
                 <state split_layout="FIRST">
-                  <first_editor vertical-scroll-proportion="0.21543986">
-                    <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+                  <first_editor vertical-scroll-proportion="0.38779175">
+                    <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
                     <folding />
                   </first_editor>
                   <second_editor />
@@ -665,8 +665,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor vertical-scroll-proportion="0.21543986">
-            <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <first_editor vertical-scroll-proportion="0.38779175">
+            <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
             <folding />
           </first_editor>
           <second_editor />
