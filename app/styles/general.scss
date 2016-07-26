@@ -11,7 +11,10 @@ html.touch * {
   text-rendering: optimizeSpeed;
 }
 
+// ####################
 // Body
+// ####################
+
 body {
   color: #222;
   font-family: "Open Sans", Tahoma, Arial, Verdana;
@@ -27,14 +30,20 @@ a {
   }
 }
 
+// ####################
 // Header
+// ####################
+
 #header {
   border-top: 5px solid $primary-color;
   border-bottom: 1px solid #ebebeb;
   line-height: 80px;
 }
 
+// ####################
 // Button
+// ####################
+
 .btn {
   border-radius: 0;
 }
@@ -100,12 +109,17 @@ button.btn {
   }
 }
 
+// ####################
 // Container
+// ####################
+
 .container {
   max-width: 1100px;
 }
 
+// ####################
 // Hero
+// ####################
 
 #hero {
   padding: 100px 20px;
@@ -113,12 +127,14 @@ button.btn {
 
 @media (min-width: $screen-lg) {
   #hero {
-    background: transparent url('./../images/tinified/img-roti.png') no-repeat center right;
-    padding: 100px 0px;
+    background: transparent url("./../images/img-roti.png") no-repeat 350px center;
+    padding: 90px 0px 70px 0;
   }
 }
 
+// ####################
 // Navigation icon
+// ####################
 
 .nav-icon {
   display: table;
@@ -138,7 +154,38 @@ button.btn {
   }
 }
 
+.nav-icon-ico {
+  display: inline-block;
+  background: transparent url("../images/ico-nav.png") no-repeat;
+  height: 50px;
+  width: 50px;
+  &.nav-icon-cake{
+    background-position: center 5px;
+  }
+  &.nav-icon-burger{
+    background-position: center -65px;
+  }
+  &.nav-icon-fish{
+    background-position: center -133px;
+  }
+  &.nav-icon-hot-drink{
+    background-position: center -202px;
+  }
+  &.nav-icon-cold-drink{
+    background-position: center -270px;
+  }
+  &.nav-icon-meat{
+    background-position: center -340px;
+  }
+  &.nav-icon-cofee{
+    background-position: center -408px;
+  }
+}
+
+// ####################
 // Navigation
+// ####################
+
 .nav-xs-trigger {
   cursor: pointer;
   display: inline-block;
@@ -203,14 +250,18 @@ button.btn {
   }
 }
 
+// ####################
 // Grey section
+// ####################
 
 .grey-section {
   background: #ebebeb;
   padding: 80px 0;
 }
 
+// ####################
 // Card
+// ####################
 
 .card-item {
   background: #fff;
@@ -247,19 +298,27 @@ button.btn {
 
 @media (min-width: $screen-md) {
   .card-item-col {
-    padding: 0 20px;
+    padding: 0 25px;
   }
 }
 
+// ####################
 // Container padding
+// ####################
+
+.container {
+  max-width: 970px;
+}
 
 @media (min-width: $screen-md) {
-  .container-p40 {
-    padding: 0 40px !important;
+  .container-p50 {
+    padding: 0 50px !important;
   }
 }
 
+// ####################
 // Blog section
+// ####################
 
 .blog-section {
   position: relative;
@@ -287,7 +346,9 @@ button.btn {
   font-size: 44px;
 }
 
+// ####################
 // Form message
+// ####################
 
 .form-message {
   padding: 30px 0 10px 0;
@@ -332,17 +393,26 @@ footer .form-control {
 
 .form-select {
   position: relative;
-  select {
+  .form-control {
+    border: 1px solid #ddd;
+    box-shadow: none;
+    border-radius: 2px;
+    height: 40px;
     padding-right: 50px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
   }
   .fa {
     position: absolute;
-    right: 20px;
-    top: 20px;
+    right: 13px;
+    top: 13px;
   }
 }
 
+// ####################
 // Footer
+// ####################
 
 footer {
   color: #444;
@@ -388,7 +458,10 @@ footer {
   }
 }
 
+// ####################
 // Content head
+// ####################
+
 .content-title {
   line-height: 60px;
 }
@@ -420,16 +493,25 @@ footer {
   font-size: 18px;
 }
 
+// ####################
 // Article
+// ####################
+
 .article,
 .txt-content {
   font-size: 18px;
   font-family: Times, Times New Roman, serif;
   font-style: italic;
   letter-spacing: 0;
+  img {
+    margin-bottom: 20px;
+  }
 }
 
+// ####################
 // Form submit
+// ####################
+
 .form-submit {
   .form-control {
     border: 0;
@@ -468,16 +550,26 @@ textarea.form-control {
   }
 }
 
+// ####################
 // Sidebar
+// ####################
+
+.sidebar{
+  padding-top: 40px;
+}
+
 @media (min-width: $screen-lg) {
   .sidebar {
     border-left: 1px solid #dfdfdf;
     padding-left: 65px;
     margin-left: 65px;
+    padding-top: 0;
   }
 }
 
+// ####################
 // Modal
+// ####################
 
 .modal-mode {
   overflow: hidden;
@@ -529,7 +621,7 @@ textarea.form-control {
   }
   .modal-box {
     position: relative;
-    width: 80%;
+    width: 100%;
     max-width: 770px;
     left: 0;
     right: 0;
@@ -574,4 +666,14 @@ textarea.form-control {
 .modal-panel.visible ~ .modal-overlay {
   opacity: 1;
   visibility: visible;
+}
+
+// ####################
+// Comment
+// ####################
+
+@media (min-width: $screen-md) {
+  .comment-date {
+    text-align: right;
+  }
 }

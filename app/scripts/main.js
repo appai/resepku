@@ -1,4 +1,6 @@
-console.log('\'Allo \'Allo!');
+// ####################
+// Navigation
+// ####################
 
 $('.nav-xs-trigger').on('click',function(){
     $('.nav-xs-panel').addClass('active');
@@ -9,6 +11,10 @@ $('.nav-xs-overlay').on('click',function(){
     $('.nav-xs-panel').removeClass('active');
     $('.nav-xs-overlay').removeClass('active');
 });
+
+// ####################
+// Modal
+// ####################
 
 $('[toggle-modal]').on('click', function () {
     var a = $(this);
@@ -24,6 +30,10 @@ $('.modal-overlay').on('click', function () {
     $('.modal-overlay').removeClass('visible');
     $('body').removeClass('modal-mode')
 });
+
+// ####################
+// Modal
+// ####################
 
 $('#file').change(function () {
     var filename = $(this).val().replace(/.*(\/|\\)/, '');

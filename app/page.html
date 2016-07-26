@@ -14,6 +14,7 @@
     <!-- endbuild -->
     <!-- build:css styles/main.css -->
 	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.css">
     <!-- endbuild -->
     <!-- build:js scripts/vendor/modernizr.js -->
 	<script src="/bower_components/modernizr/modernizr.js"></script>
@@ -27,14 +28,14 @@
 	<div class="container">
 		<header>
 			<a href="index.html" id="logo" class="pull-left">
-				<img src="images/tinified/logo-resepku.png" alt="">
+				<img src="images/logo-resepku.png" alt="" width="200" href="80">
 			</a>
 			<nav class="pull-right fwb fz12 visible-lg">
-                <a href="#" class="btn btn-arrow-red fwb ttu mr20" toggle-modal="modal-post">
+                <a href="form.html" class="btn btn-arrow-red fwb ttu mr20">
                     <span class="fa fa-plus mr5 ml0"></span>
-                    TULIS Resep BARU
+                    Write new recipe
                 </a>
-				<a href="page.html">
+				<a href="index.html">
                     SIGN OUT
 				</a>
 			</nav>
@@ -43,8 +44,13 @@
 					<i class="fa fa-bars"></i>
 				</div>
 				<div class="nav-xs-panel">
-					<a href="page.html" class="nav-xs-item db">Login</a>
-					<a href="page.html" class="nav-xs-item db">Register</a>
+                    <a href="form.html" class="nav-xs-item db fwb ttu">
+                        <span class="fa fa-plus mr5 ml0"></span>
+                        Write new recipe
+                    </a>
+                    <a href="index.html" class="nav-xs-item db">
+                        SIGN OUT
+                    </a>
 				</div>
 				<div class="nav-xs-overlay">&nbsp;</div>
 			</nav>
@@ -67,7 +73,7 @@
     </div>
     <div class="row">
         <div class="col-md-7">
-            <div class="article">
+            <div class="article mb40">
                 <img src="images/img-recipe-01.png" alt="" class="pull-left mr20">
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem et in quisquam. Ad alias aperiam assumenda aut deserunt dolores earum fugiat, labore laudantium maiores minus, numquam omnis pariatur soluta vel.
@@ -85,16 +91,16 @@
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aliquid architecto et, eveniet exercitationem labore laudantium modi natus, nisi recusandae unde voluptatem. Ipsam molestiae mollitia quam quibusdam suscipit voluptate.</span><span>Accusantium culpa cumque esse facere harum, hic, laborum minus mollitia perferendis possimus repudiandae soluta sunt tenetur totam voluptas? Animi blanditiis esse est illo labore maxime nesciunt optio quae unde veritatis!</span>
                 </p>
             </div>
-            <div class="comment mt40">
-                <h3 class="fwb txt-red ttu mb40">KOMENTAR</h3>
+            <div class="comment mb40">
+                <h3 class="fwb txt-red ttu mb40">Comment</h3>
                 <div class="comment-item">
                     <div class="row mb20">
-                        <div class="col-md-6">
+                        <div class="col-md-6 comment-author">
                             <div class="fwb fz18">
                                 SIERRA DOE
                             </div>
                         </div>
-                        <div class="col-md-6 tar">
+                        <div class="col-md-6 comment-date">
                             <div class="fwb ttu txt-grey">
                                 21 Aug 2016 09:00
                             </div>
@@ -106,18 +112,18 @@
                     <hr>
                 </div>
             </div>
-            <div class="comment mt40">
-                <h3 class="fwb txt-red ttu mb40">Tulis Komentar</h3>
+            <div class="comment mb40">
+                <h3 class="fwb txt-red ttu mb40">Write comment</h3>
                 <div class="form-submit">
                     <div class="form-group">
                         <input type="email" class="form-control" placeholder="email">
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="komentar">
+                        <input type="text" class="form-control" placeholder="comment">
                     </div>
                     <div class="form-group tar mt20">
                         <a href="page.html" class="btn btn-arrow-red fwb ttu">
-                            Kirim
+                            Send
                             <i class="fa fa-long-arrow-right"></i>
                         </a>
                     </div>
@@ -127,7 +133,7 @@
         <div class="col-md-5">
             <div class="sidebar">
                 <h3 class="fwb txt-red ttu mb40 mt0">
-                    RESEP TERPOPULER
+                    Top recipe
                 </h3>
                 <div class="sidebar-item mb40">
                     <h3 class="fwb ttu mb20">Cras ultricies ligula sed magna</h3>
@@ -135,9 +141,9 @@
                         Sed porttitor lectus nibh. Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     </p>
                     <a href="page.html" class="btn btn-arrow-nobox fwb ttu">
-                    Resep Lainnya
-                    <i class="fa fa-long-arrow-right"></i>
-                </a>
+                        Read Recipe
+                        <i class="fa fa-long-arrow-right"></i>
+                    </a>
                 </div>
                 <div class="sidebar-item mb40">
                     <h3 class="fwb ttu mb20">Cras ultricies ligula sed magna</h3>
@@ -145,9 +151,9 @@
                         Sed porttitor lectus nibh. Sed porttitor lectus nibh. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
                     </p>
                     <a href="page.html" class="btn btn-arrow-nobox fwb ttu">
-                    Resep Lainnya
-                    <i class="fa fa-long-arrow-right"></i>
-                </a>
+                        Read recipe
+                        <i class="fa fa-long-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -157,13 +163,13 @@
 	<div class="container">
 		<form class="row form-message">
 			<div class="col-lg-3 pl0">
-				<div class="fwb fz20 form-message-title">KIRIM PESAN</div>
+				<div class="fwb fz20 form-message-title ttu">Send Us Message</div>
 			</div>
 			<div class="col-lg-4">
 				<input type="text" class="form-control fwb" placeholder="EMAIL">
 			</div>
 			<div class="col-lg-4">
-				<input type="text" class="form-control fwb" placeholder="PESAN">
+				<input type="text" class="form-control fwb" placeholder="Message">
 			</div>
 			<div class="col-lg-1 pr0">
 				<button class="btn btn-red">
@@ -193,49 +199,6 @@
 		</div>
 	</div>
 </footer>
-
-<!-- Modal -->
-<div id="modal-post" class="modal-panel-lg">
-	<div class="modal-box">
-		<div class="ttu fwb fz44 tac">
-			TULIS RESEP
-		</div>
-		<div class="modal-box-line">&nbsp;</div>
-		<p class="txt-content tac">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultricies ligula sed magna dictum porta. Pellentesque in ipsum id orci porta dapibus.
-		</p>
-		<div class="form-submit">
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Judul">
-			</div>
-			<div class="form-group">
-				<input type="text" class="form-control" placeholder="Sub judul">
-			</div>
-			<div class="form-group">
-				<textarea type="text" class="form-control" placeholder="Resep"></textarea>
-			</div>
-			<div class="form-group">
-                <label for="file" class="form-control-file">
-                    <span class="form-control-file-text ttu fwb">
-                        PILIH GAMBAR
-					    <i class="fa fa-long-arrow-right"></i>
-                    </span>
-				    <input id="file" type="file" class="form-control" placeholder="Pilih gambar">
-                </label>
-			</div>
-			<div class="form-group tar mt40">
-				<button type="submit" class="btn btn-arrow-red fwb ttu db">
-					Tulis
-					<i class="fa fa-long-arrow-right"></i>
-				</button>
-			</div>
-		</div>
-		<p class="txt-content tac">
-			Resep berhasil dimasukkan.
-		</p>
-	</div>
-    <div class="modal-overlay"></div>
-</div>
 
 <!-- build:js scripts/vendor.js -->
 <!-- bower:js -->

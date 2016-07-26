@@ -1,6 +1,9 @@
 $primary-color: #c96060;
 
+// ####################
 // Font
+// ####################
+
 .fwb {
   font-weight: 800;
 }
@@ -9,18 +12,34 @@ $primary-color: #c96060;
   font-weight: 200;
 }
 
+// ####################
 // Padding
+// ####################
+
 .p20 {
   padding: 20px;
 }
 
+// ####################
+// Background
+// ####################
+
+.bg-grey {
+  background: #e3e3e3;
+}
+
+// ####################
 // Family
+// ####################
+
 .ff-times {
   font-family: Times, Times New Roman, serif;
   letter-spacing: 0;
 }
 
+// ####################
 // Margin
+// ####################
 
 .ml0 {
   margin-left: 0 !important;
@@ -66,7 +85,10 @@ $primary-color: #c96060;
   margin-bottom: 40px;
 }
 
+// ####################
 // Font size
+// ####################
+
 .fz12 {
   font-size: 12px;
 }
@@ -91,22 +113,34 @@ $primary-color: #c96060;
   font-size: 44px;
 }
 
+// ####################
 // Text transform
+// ####################
+
 .ttu {
   text-transform: uppercase;
 }
 
+// ####################
 // Text decoration
+// ####################
+
 .tdu {
   text-decoration: underline;
 }
 
+// ####################
 // Font style
+// ####################
+
 .fsi {
   font-style: italic;
 }
 
+// ####################
 // Text align
+// ####################
+
 .tac {
   text-align: center;
 }
@@ -115,32 +149,50 @@ $primary-color: #c96060;
   text-align: right;
 }
 
+// ####################
 // Font style
+// ####################
+
 .fsi {
   font-style: italic;
 }
 
+// ####################
 // Color
+// ####################
+
 .c-primary {
   color: $primary-color;
 }
 
-// Letter spaccing
+// ####################
+// Letter spacing
+// ####################
+
 .lpn {
   letter-spacing: normal;
 }
 
+// ####################
 // Fluid size
+// ####################
+
 .fluid {
   max-width: 100%;
 }
 
+// ####################
 // Cursor
+// ####################
+
 .cp {
   cursor: pointer;
 }
 
+// ####################
 // Display
+// ####################
+
 .db {
   display: block;
 }
@@ -149,7 +201,10 @@ $primary-color: #c96060;
   display: inline-block;
 }
 
+// ####################
 // Text
+// ####################
+
 .txt-red {
   color: $primary-color;
 }
