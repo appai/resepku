@@ -2,45 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88b0cda7-fd71-4ae3-b363-e362b6a8b911" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/form.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-burger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-cofee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-fish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-hot-drink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-ice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/ico-meat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-burger.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-cake.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-cofee.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-fish.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-hot-drink.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-ice.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/ico-meat.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-recipe-06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-roti.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/img-tips.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/images/tinified/logo-resepku.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-01.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-01.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-02.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-02.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-03.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-03.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-04.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-04.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-05.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-05.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-recipe-06.png" afterPath="$PROJECT_DIR$/app/images/img-recipe-06.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-roti.png" afterPath="$PROJECT_DIR$/app/images/img-roti.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/img-tips.png" afterPath="$PROJECT_DIR$/app/images/img-tips.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/images/logo-resepku.png" afterPath="$PROJECT_DIR$/app/images/logo-resepku.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/page.html" afterPath="$PROJECT_DIR$/app/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/main.js" afterPath="$PROJECT_DIR$/app/scripts/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/base.scss" afterPath="$PROJECT_DIR$/app/styles/base.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/general.scss" afterPath="$PROJECT_DIR$/app/styles/general.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/styles/main.scss" afterPath="$PROJECT_DIR$/app/styles/main.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="resepku-webapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,10 +26,10 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.57932264">
+                <state vertical-scroll-proportion="-6.372549">
                   <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
                   <folding>
                     <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,6 +41,22 @@
                     <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
                     <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/readme.md">
+              <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+                <state />
+              </provider>
+              <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+                <state split_layout="FIRST">
+                  <first_editor vertical-scroll-proportion="0.21543986">
+                    <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+                    <folding />
+                  </first_editor>
+                  <second_editor />
                 </state>
               </provider>
             </entry>
@@ -168,6 +146,7 @@
         <option value="$PROJECT_DIR$/app/page.html" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/styles/general.scss" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -291,11 +270,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="735" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -665,7 +644,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57932264">
+        <state vertical-scroll-proportion="-6.372549">
           <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -677,6 +656,20 @@
             <element signature="n#style#0;n#div#4;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;MultiMarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor vertical-scroll-proportion="0.21543986">
+            <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
