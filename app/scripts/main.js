@@ -13,26 +13,7 @@ $('.nav-xs-overlay').on('click',function(){
 });
 
 // ####################
-// Modal
-// ####################
-
-$('[toggle-modal]').on('click', function () {
-    var a = $(this);
-    var b = a.attr('toggle-modal');
-    $('#'+b).addClass('visible');
-    $('.modal-overlay').addClass('visible');
-    $('body').addClass('modal-mode')
-});
-
-$('.modal-overlay').on('click', function () {
-    $('.modal-panel-lg').removeClass('visible');
-    $('.modal-panel').removeClass('visible');
-    $('.modal-overlay').removeClass('visible');
-    $('body').removeClass('modal-mode')
-});
-
-// ####################
-// Modal
+// File
 // ####################
 
 $('#file').change(function () {
