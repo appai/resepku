@@ -270,11 +270,25 @@ button.btn {
 }
 
 .card-item-img {
+  position: relative;
+  background-color: #ddd;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   height: 200px;
+  .img-empty {
+    position: absolute;
+    font-size: 60px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #bbb;
+    height: 60px;
+    width: 70px;
+  }
 }
 
 .card-item-title {
