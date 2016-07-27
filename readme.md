@@ -12,7 +12,8 @@ PSD MOCK-UP
 
 HTML TEMPLATE
 > https://github.com/appai/resepku
-> Demo : appai-backbone.firebaseapp.com/resepku
+> 
+> http://appai-backbone.firebaseapp.com/resepku
 
 PHP API
 > https://github.com/eezhal92/resepku-api
