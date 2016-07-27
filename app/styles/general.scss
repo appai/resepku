@@ -416,11 +416,12 @@ footer .form-control {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
+    text-transform: uppercase;
   }
   .fa {
     position: absolute;
-    right: 13px;
-    top: 13px;
+    right: 15px;
+    top: 20px;
   }
 }
 
