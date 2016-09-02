@@ -1,5 +1,7 @@
 # Resepku 
 
+![alt tag](https://d13yacurqjgara.cloudfront.net/users/332417/screenshots/2779486/resepku.jpg)
+
 Halo, Ini adalah project resepku.
 Project resepku adalah Open Source Learning Project atau project sharing ilmu secara open source untuk front-end dengan mencoba berbagai macam js framework dengan satu kasus.
 
