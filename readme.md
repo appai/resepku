@@ -1,25 +1,34 @@
 # Resepku 
 
 Halo, Ini adalah project resepku.
-Project resepku adalah Open Source Learning Project atau project pembelajaran secara open source dimana kita dengan 1 contoh project bisa mencoba ke berbagai macam javascript framework.
+Project resepku adalah Open Source Learning Project atau project sharing ilmu secara open source untuk front-end dengan mencoba berbagai macam js framework dengan satu kasus.
 
-Dalam project ini juga kita bisa sharing bagaimana cara yang lebih optimal dalam development front-end, dari segi metode, speed, file size dll.
-
-Resepku menyiapkan berbagai resource untuk dipilih dimana anda memulai
+Bagi yang ingin belajar terdapat berbagai pilihan untuk memulai, terdapat PSD Freebies untuk convert PSD to HTML, HTML Template untuk siap di convert ke js framework, API dengan berbagai bahasa atau mempelajari langsung dari project yang sudah complete.
 
 PSD MOCK-UP
 > http://bit.ly/resepku-mockup
 
 HTML TEMPLATE
 > https://github.com/appai/resepku
-> 
-> http://appai-backbone.firebaseapp.com/resepku
+> Demo: http://appai-backbone.firebaseapp.com/resepku
 
-PHP API
+REACT
+> https://github.com/eezhal92/resepku-react 
+
+BACK-END API
+- PHP 
 > https://github.com/eezhal92/resepku-api
 
-> Coming soon untuk angular-2, vue, react dll :)
+
+### CREDIT
+- APPAI
+Git: https://github.com/appai
+
+- EEZHAL
+Git: https://github.com/eezhal92
+
+- SULHAS
+Git: https://github.com/ariasy
 
 ### FAQ
-
-Email to : akbarputrapai@gmail.com
+Email to: akbarputrapai@gmail.com
